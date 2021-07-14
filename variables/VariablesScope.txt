@@ -1,0 +1,6 @@
+The scope is defined by a method with its opening curly brace and
+is closed by curly brace.The block of code is called method body.
+
+Generally variables declared inside a scope are not accessible to
+code outside the scope.A variable which is declared within a block is called
+local variable.Scopes can be nested.
