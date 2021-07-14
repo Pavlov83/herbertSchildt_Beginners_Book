@@ -1,0 +1,19 @@
+At the foundation of any programming language are its data types and operators.
+These elements determine the kind tasks which can be applied.
+Java is strongly typed language and because of that the types are 
+very important,the compiler checks the types for compatibility and
+this gives the language portability.Every type have certain amount of
+operations that can be applied to it.
+
+Java have two general categories of datatypes.
+
+Primitive and reference.Primitive types are normal binary values
+and they are not objects.The Reference types are constructed from
+primitive types.
+
+The integral primitive types are byte,short,int,long.Those types
+are holding whole number binary values.Char is also type which is also
+based on the unicode table which also uses primitive type.
+
+
+The boolean type represents true and false values.
