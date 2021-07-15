@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "variables",
         "DataTypes_and_Operators",
-        "variables"
+        "ProgramControlStatements"
     ]
 }
