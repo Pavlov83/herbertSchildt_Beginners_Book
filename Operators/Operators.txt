@@ -1,0 +1,12 @@
+Operators are symbols that tells the compiler to 
+perform certain action.
+
+There are four general classes of operators in Java:
+
+ Arithmetic(+,-,*,/,%,++,--)
+ Bitwise
+ Comparison(Relational)
+ Logical (&,|,^,||,&&,!) - they output boolean value
+
+ Short cicuit logical operators
+ 
