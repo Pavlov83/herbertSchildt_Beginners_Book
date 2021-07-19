@@ -1,14 +1,19 @@
+import java.io.IOException;
+
 //This project builds a simple control system for the syntax 
 //of control statements
 
 class BuildSystem{
+
+    public static void main(String[] args) throws IOException{
+        char choice;
 
 System.out.println("Help on:");
 System.out.println(" 1.if");
 System.out.println(" 2.switch");
 System.out.println("Choose one: ");
 
-choice = (char) System.in.read();
+ choice = (char)System.in.read();
 
 System.out.println("\n");
 
@@ -31,4 +36,5 @@ switch(choice){
       System.out.println("Selection not found"); 
       
     }
+}
 }
