@@ -6,15 +6,21 @@ public class Vehicle {
 
 public static void main(String[] args){
 
-    Vehicle minivan = new Vehicle();
-    int range;
+    Vehicle minivan1 = new Vehicle();
+    Vehicle sportscar = new Vehicle();
 
-    minivan.passengers = 7;
-    minivan.fuelcap = 65;
-    minivan.mpg = 21;
+    int range1,range2;
+
+    minivan1.passengers = 7;
+    minivan1.fuelcap = 65;
+    minivan1.mpg = 21;
+
+    sportscar.passnegers = 2;
+    sportscar.fuelcap = 20;
+    sportscar.mpg = 2;
 
     System.out.println("Minivan can carry: " + minivan.passengers + minivan.fuelcap + "gallons");
-
+    System.out.println("Sportscar can carry: " + sportscar.passengers + sportscar.fuelcap + "gallons");
 
    }
     
