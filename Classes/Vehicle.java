@@ -1,10 +1,11 @@
 public class Vehicle {
 
     int passengers; //number of passengers
-    int fuelcap; //fuel capacity in gallons
+    int fuelCap; //fuel capacity in gallons
     int mpg;     //fuel consumption in miles per gallon
 
-public static void main(String[] args){
+
+    public static void main(String[] args){
 
     Vehicle minivan1 = new Vehicle();
     Vehicle sportscar = new Vehicle();
@@ -12,15 +13,18 @@ public static void main(String[] args){
     int range1,range2;
 
     minivan1.passengers = 7;
-    minivan1.fuelcap = 65;
+    minivan1.fuelCap = 65;
     minivan1.mpg = 21;
 
-    sportscar.passnegers = 2;
-    sportscar.fuelcap = 20;
+    sportscar.passengers = 2;
+    sportscar.fuelCap = 20;
     sportscar.mpg = 2;
 
-    System.out.println("Minivan can carry: " + minivan.passengers + minivan.fuelcap + "gallons");
-    System.out.println("Sportscar can carry: " + sportscar.passengers + sportscar.fuelcap + "gallons");
+    range1 = minivan1.fuelCap * minivan1.mpg;
+    range2 = sportscar.fuelCap * sportscar.mpg;
+
+    System.out.println("Minivan can carry: " + minivan1.passengers + minivan1.fuelCap + "gallons");
+    System.out.println("Sportscar can carry: " + sportscar.passengers + sportscar.fuelCap + "gallons");
 
    }
     

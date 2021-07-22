@@ -1,0 +1,8 @@
+Methods are parts of the classes and minpultate data
+or gives us access to data.In many casses our program
+interacts with classes trough methods.
+
+methods are declared with the following syntax:
+return-type name(parameter-list){
+    //body of method
+}
