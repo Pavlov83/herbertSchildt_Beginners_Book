@@ -4,18 +4,22 @@ class MethodsPractice{
     int mainTank;
     int consumption;
     int rangeDistance;
-
+    
+     int range(){
+         return mainTank * consumption;
+    }
 }
 
 class ApplyMethods{
 
-    Vehicle car5 = new Vehicle();
+    public static void main(String[] args){
+
+    MethodsPractice car5 = new MethodsPractice();
     car5.mainTank = 20;
     car5.consumption = 8;
+    car5.loadCapacity = 180;
 
-    getRange(){
-        rangeDistance = car5.mainTank * car5.consumption;
-        return System.out.println(rangeDistance);
+    System.out.println("The range of" + car5.range());
 
     }
 
