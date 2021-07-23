@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "variables",
         "ProgramControlStatements",
+        "Methods",
         "DataTypes_and_Operators",
-        "Methods"
+        "Classes"
     ]
 }

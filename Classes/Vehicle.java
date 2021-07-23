@@ -37,7 +37,6 @@ class CompFuel{
         System.out.println("To go " + dist + "miles minivan needs " + gallons + "gallons of fuel");
         
         gallons = sportscar.fuelneeded(dist);
-
         System.out.println("To go " + dist + "miles sportscar needs " + "gallons of fuel");
 
     }
