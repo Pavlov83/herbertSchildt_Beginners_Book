@@ -1,31 +1,44 @@
-public class Vehicle {
-
+public class Vehicle{
     int passengers; //number of passengers
-    int fuelCap; //fuel capacity in gallons
-    int mpg;     //fuel consumption in miles per gallon
+    int fuelcap;    //fuel capacity in gallons
+    int mpg;        //fuel consumption in miles per gallon
 
+    //Return the range
+    int range(){
+        return mpg  * fuelcap;
+    }
 
+    //Compute fuel for a given distance
+    double fuelNeeded(int miles){
+        return(double) miles/mpg;
+    }
+
+}
+
+class CompFuel{
     public static void main(String[] args){
+        Vehicle minivan = new Vehicle();
+        Vehicle sportscar = new Vehicle();
 
-    Vehicle minivan1 = new Vehicle();
-    Vehicle sportscar = new Vehicle();
+        double gallons;
+        int dist = 252;
 
-    int range1,range2;
+        //assign values to the fields for the minivan
+        minivan.passengers = 7;
+        minivan.fuelcap = 16;
+        minivan.mpg = 21;
 
-    minivan1.passengers = 7;
-    minivan1.fuelCap = 65;
-    minivan1.mpg = 21;
+        //assign values to the fields in sportscar
+        sportscar.passengers = 4;
+        sportscar.fuelcap = 10;
+        sportscar.mpg = 4;
 
-    sportscar.passengers = 2;
-    sportscar.fuelCap = 20;
-    sportscar.mpg = 2;
+        gallons = minivan.fuelNeeded(dist);
+        System.out.println("To go " + dist + "miles minivan needs " + gallons + "gallons of fuel");
+        
+        gallons = sportscar.fuelneeded(dist);
 
-    range1 = minivan1.fuelCap * minivan1.mpg;
-    range2 = sportscar.fuelCap * sportscar.mpg;
+        System.out.println("To go " + dist + "miles sportscar needs " + "gallons of fuel");
 
-    System.out.println("Minivan can carry: " + minivan1.passengers + minivan1.fuelCap + "gallons");
-    System.out.println("Sportscar can carry: " + sportscar.passengers + sportscar.fuelCap + "gallons");
-
-   }
-    
+    }
 }
