@@ -4,6 +4,7 @@
         "ProgramControlStatements",
         "Methods",
         "DataTypes_and_Operators",
-        "Classes"
+        "Classes",
+        "Inheritance"
     ]
 }
