@@ -1,0 +1,6 @@
+Sometimes we will want to create a superclass that
+defines only a generalized form that will be
+shared to fill in the details.Such a class
+determines the nature of the methods that the subclasses
+ must implement but does not provide an implementation
+ of one or more from this methods.
